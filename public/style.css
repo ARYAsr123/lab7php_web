@@ -1,0 +1,252 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  max-width: 1000px;
+  position: relative;
+  overflow-x: hidden;
+  margin: auto;
+  box-shadow: 0 0 20px #979797;
+  background-color: antiquewhite;
+}
+
+#container {
+  width: 100vw;
+    margin: 50px 0;
+    padding: 30px;
+}
+
+#container > header > h1 {
+  color: grey;
+  padding: 20px;
+}
+
+#container > .nav {
+  display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    justify-content: start;
+    background: linear-gradient(to bottom, #ef233c, #780000);
+}
+
+.nav > a:hover {
+    background-color: #63080f;
+    transition: .2s all;
+}
+.nav > a {
+  display: inline-block;
+    color: #fff;
+    padding: 18px;
+}
+
+/* .nav > a.active {
+  background-color: rgba(255, 127, 80, 0.539);
+  color: rgb(255, 255, 255);
+} */
+
+#container > #hero h2 {
+  margin-bottom: 10px;
+}
+
+#h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #666565;
+}
+
+#hero > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 7mm;
+}
+
+#hero > button {
+  height: 40px;
+  margin-top: 20px;
+  background-color: rgb(255, 0, 0);
+  padding: 0 20px;
+  padding-bottom: 4px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#hero > button:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+#container .wrapper {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+#container .wrapper .main {
+  width: 100%;
+}
+
+.wrapper .main .cards {
+  display: flex;
+  gap: 15px;
+}
+
+.wrapper .main .cards .card {
+  padding: 10px 30px;
+  background: linear-gradient(to bottom, #ef233c, #780000);
+  text-align: center;
+  width: 180px;
+  border-radius: 5px;
+}
+
+.wrapper .main .cards .card:hover {
+  background: linear-gradient(to bottom, #ef233c, #780000);
+}
+
+.wrapper .main .cards .card .card-content {
+  padding: 7px;
+}
+
+.wrapper .main .cards .card .card-content button {
+  height: 40px;
+  margin: 20px auto 0px auto;
+  color: black;
+  background-color: rgb(255, 0, 0);
+  padding: 10px 20px;
+  border-radius: 4%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.wrapper .main .cards .card .card-content button:hover {
+  background-color: rgb(249, 184, 138);
+  cursor: pointer;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: cornsilk;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(210, 36, 30);
+  margin: 20px 0;
+}
+
+.sidebar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.text,
+.link {
+  display: flex;
+  flex-direction: column;
+}
+
+.text h3,
+.link h3 {
+  padding: 5px 10px;
+  background-color: rgb(255, 0, 0);
+}
+
+.text p,
+.link a {
+  padding: 5px 10px;
+  border-right: 1px solid rgb(210, 30, 30);
+  border-right: 1px solid rgb(210, 30, 30);
+  border-right: 1px solid rgb(210, 30, 30);
+  color: #000;
+  text-transform: capitalize;
+  background-color: cornsilk;
+}
+
+#about {
+  padding: 50px 20px;
+  margin-bottom: 20px;
+}
+#about h1 {
+  font-size: 35px;
+  position: relative;
+  text-align: center;
+}
+#about p {
+  font-size: 18px;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+}
+
+#contact {
+  background: linear-gradient(to bottom, #ef233c, #780000);
+  padding: 20px 20px;
+  margin-bottom: 20px;
+}
+.input,
+.msg,
+.area {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+button {
+  font-size: 14px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 8x;
+  font-family: sans-serif;
+}
+button :hover {
+  opacity: 0, 9;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 18px;
+  background: linear-gradient(to bottom, #ef233c, #780000);
+  color: #fff;
+}
+
+footer p a {
+  color: white;
+}
